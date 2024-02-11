@@ -1,0 +1,14 @@
+1. Web History
+2. Basic web development principles
+3. Web Design Pattrens
+
+Target: 
+1. HTML ---> 3din
+2. CSS ---->3din
+3. Bootstrap----->3din
+4. Javascript ----> 5din
+6. Reactjs ------> 5din
+------------------------------
+7. Projects (Small -----> Big) 14din
+8. Projects ---------> github
+9. Share Projects on (Linkedin, twitter, facebook) asked for feedback.
