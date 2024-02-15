@@ -1,0 +1,20 @@
+
+
+
+.header{
+    height: 70px ;
+    background-color: rgb(85, 85, 85);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+    align-items: center;}
+
+    .box{
+     
+    }
+    .box1{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+    }
