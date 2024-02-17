@@ -31,11 +31,9 @@
 // document.getElementById("header").removeAttribute("style");
 // element=document.getElementById("header").getAttribute("class");
 // console.log(element);
+                      //   Dom css  //
+     var element;
+     document.querySelector("#header").className = "abc";
+     element= document.querySelector("#header").className;
+     console.log(element);   
 
-
-// var element;
-// element=document.getElementById("").innerHTML;
-// console.log(element);
-// document.getElementById("para").innerHTML="<h2>Page Heading</h2>";
-// // element=document.getElementById("header").innerHTML;
-// console.log(element);

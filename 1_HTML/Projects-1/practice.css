@@ -1,0 +1,21 @@
+.head{
+    background-color: rgb(89, 132, 250);
+    border: 2px dotted black;
+}
+
+.nav.hover{
+    color: brown;
+}
+.nav{
+  background-color: rgb(37, 185, 185);
+}
+#links{
+  padding-left: 15px;
+  padding-top: 30px;
+}
+#para{
+   color: rgb(200, 72, 207);
+}
+.para{
+    background-color: rgb(126, 126, 238);
+}

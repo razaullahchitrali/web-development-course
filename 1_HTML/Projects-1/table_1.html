@@ -2,6 +2,7 @@
 <head>
 
 <title>WEB PAGE TITLE GOES HERE</title>
+<link rel="stylesheet" href="practice.css">
 
 </head>
 
@@ -11,34 +12,38 @@
 <tr>
 
 <!-- ============ HEADER SECTION ============== -->
-<td id="header" colspan="2" style="height: 100px;" bgcolor="#777d6a"><h1>Website Logo</h1></td></tr>
+<td class="head" colspan="2" style="height: 100px;" bgcolor="#777d6a"><h1 style="color: chartreuse;">Website Logo</h1></td></tr>
 
 
 <!-- ============ NAVIGATION BAR SECTION ============== -->
-<tr><td colspan="2" valign="middle" height="30" bgcolor="#a9ae9f"><a href="#">Home</a></td></tr>
+<tr class="nav"><td colspan="2" valign="middle" height="30" bgcolor="">
+    <a href="#">Home</a>|
+    <a href="#">Gallery</a>|
+    <a href="#">Link</a>
+</td></tr>
 
 <tr>
 <!-- ============ LEFT COLUMN (MENU) ============== -->
 <td id="links" class="abcd" width="20%" valign="top" bgcolor="#999f8e">
-<a href="#">Menu link</a><br>
-<a href="#">Menu link</a><br>
-<a href="#">Menu link</a><br>
-<a href="#">Menu link</a><br>
+<a href="#">Menu link</a><br><br>
+<a href="#">Menu link</a><br><br>
+<a href="#">Menu link</a><br><br>
+<a href="#">Menu link</a><br><br>
 <a href="#">Menu link</a>
 </td>
 
 <!-- ============ RIGHT COLUMN (CONTENT) ============== -->
-<td width="80%" valign="top" bgcolor="#d2d8c7">
+<td class="para" width="80%" valign="top" bgcolor="#d2d8c7">
 
 <h2 id="para">Page heading</h2>
 
-Here's a two column layout with header, navigation bar and footer sections. The first two table rows create the header and the navigation bar and contain a single table cell each. These table cells use the colspan="2" attribute-value pair.<br>
+<p class="para">Here's a two column layout with header, navigation bar and footer sections. The first two table rows create the header and the navigation bar and contain a single table cell each. These table cells use the colspan="2" attribute-value pair.<br>
 <br>
 
 The third table row contains two table cells which create the menu column (left) and the content column (right). The colspan attribute is not set in either so they default to colspan="1".<br>
 <br>
 
-The fourth table row creates the footer. Like the header and the navigation bar, it contains a single table cell which uses the colspan="2" attribute-value pair.</td></tr>
+The fourth table row creates the footer. Like the header and the navigation bar, it contains a single table cell which uses the colspan="2" attribute-value pair.</p></td></tr>
 
 <!-- ============ FOOTER SECTION ============== -->
 <tr><td colspan="2" align="center" height="20" bgcolor="#777d6a">Copyright ©</td></tr>
