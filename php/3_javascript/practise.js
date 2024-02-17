@@ -54,38 +54,43 @@
 // console.log(a);                   //****  delete the element by using index value***
 
 
-// var a=['Zubair','Danish','GulBaz','Sher'];
-// console.log(a);
-// a.sort();
-// console.log(a);                  //*** place the element by using sort***//
-// a.reverse();
-// console.log(a);               //***this is called reverse sort */
+// // var a=['Zubair','Danish','GulBaz','Sher'];
+// // console.log(a);
+// // a.sort();
+// // console.log(a);                  //*** place the element by using sort***//
+// // a.reverse();
+// // console.log(a);               //***this is called reverse sort */
 
-// var b= a.slice(1,3);
-// console.log(b);           /// *****    to remove the element****///
+// // var b= a.slice(1,3);
+// // console.log(b);           /// *****    to remove the element****///
 
-                                    //  *** forEach Loop****///
-    //    var a=['Arslan','javeed','Gulbaz','jagar']
-    //    a.forEach(function(value){
-    //     console.log( value ); 
-    //    });
-    //                 //    ** object tutorial**///
-        var a = {
-            fname: 'Raza',
-            lname:  'Ullah',
-            age : 25,
-            email : 'rrixvi@gmal.com',
-            // favName:['athar','fakhar','gulbaz','shubnam'],        ///****We can make Array inside the object***/// */
-            // salary :function(){                                   ////****We can also make a function inside the object***/// */
-            //     return 25000;},
-        fulname : function(){
-        return this.fname + "" + this.lname;
+//                                     //  *** forEach Loop****///
+//     //    var a=['Arslan','javeed','Gulbaz','jagar']
+//     //    a.forEach(function(value){
+//     //     console.log( value ); 
+//     //    });
+//     //                 //    ** object tutorial**///
+//         var a = {
+//             fname: 'Raza',
+//             lname:  'Ullah',
+//             age : 25,
+//             email : 'rrixvi@gmal.com',
+//             // favName:['athar','fakhar','gulbaz','shubnam'],        ///****We can make Array inside the object***/// */
+//             // salary :function(){                                   ////****We can also make a function inside the object***/// */
+//             //     return 25000;},
+
+//                     // creating object method 1****///
+//         fulname : function(){
+//         return this.fname + "" + this.lname;
         
         
-        }
-    }
+//         }
+//     }
     
            
-        console.log(a.fulname ());
-        document.write(a.fulname()); 
-        document.write(a.salary());
+//         console.log(a.fulname ());
+//         document.write(a.fulname()); 
+//         document.write(a.salary());
+
+                 
+                 

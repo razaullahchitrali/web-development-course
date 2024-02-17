@@ -11,7 +11,7 @@
 <tr>
 
 <!-- ============ HEADER SECTION ============== -->
-<td colspan="2" style="height: 100px;" bgcolor="#777d6a"><h1>Website Logo</h1></td></tr>
+<td id="header" colspan="2" style="height: 100px;" bgcolor="#777d6a"><h1>Website Logo</h1></td></tr>
 
 
 <!-- ============ NAVIGATION BAR SECTION ============== -->
@@ -19,7 +19,7 @@
 
 <tr>
 <!-- ============ LEFT COLUMN (MENU) ============== -->
-<td width="20%" valign="top" bgcolor="#999f8e">
+<td id="links" class="abcd" width="20%" valign="top" bgcolor="#999f8e">
 <a href="#">Menu link</a><br>
 <a href="#">Menu link</a><br>
 <a href="#">Menu link</a><br>
@@ -30,7 +30,7 @@
 <!-- ============ RIGHT COLUMN (CONTENT) ============== -->
 <td width="80%" valign="top" bgcolor="#d2d8c7">
 
-<h2>Page heading</h2>
+<h2 id="para">Page heading</h2>
 
 Here's a two column layout with header, navigation bar and footer sections. The first two table rows create the header and the navigation bar and contain a single table cell each. These table cells use the colspan="2" attribute-value pair.<br>
 <br>
@@ -43,6 +43,7 @@ The fourth table row creates the footer. Like the header and the navigation bar,
 <!-- ============ FOOTER SECTION ============== -->
 <tr><td colspan="2" align="center" height="20" bgcolor="#777d6a">Copyright ©</td></tr>
 </table>
+<script src="dom.js"></script>
 </body>
 
 <html>
