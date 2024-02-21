@@ -1,0 +1,32 @@
+.blog-card{
+   border: 3px solid black;
+   width: 50%;
+   height: 200px;
+   background-color: burlywood;
+   margin-left: 150px;
+   margin-top: 70px;
+   padding-left: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+  
+}
+.blog-title{
+
+}
+.blog-body{
+ margin-top: 25px;
+ 
+
+}
+.button{
+    height: 25px;
+    display: flex;
+    justify-content: end;
+margin-bottom: 20px;
+margin-right: 15px;
+padding-bottom: 10px;
+color: rgb(162, 53, 53);
+
+color: white; 
+    
+}

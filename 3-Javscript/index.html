@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="show-users">Show users</button>
+
+    <div>
+        <table id="customers">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>                   
+                    <th>City</th>
+                    <th>Company</th>
+                    <th>Phone</th>
+                    <th>Street</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+      <button id="show-users">Show users</button>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>UserName</th>
+                    <th>Suite</th>                   
+                    <th>Zipcode</th>
+                    <th>Company</th>
+                    <th>Phone</th>
+                    <th>Street</th>
+                    <th>late</th>
+                </tr>
+            </thead>
+            <tbody id="user-details">
+                <!-- Load user data here from javascript-->
+            </tbody>
+
+        </table>
+    </div>
+
+    <script src="fetch.js" type="module"></script>
+</body>
+
+</html>

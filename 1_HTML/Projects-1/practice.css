@@ -1,21 +1,15 @@
-.head{
-    background-color: rgb(89, 132, 250);
-    border: 2px dotted black;
+.out{
+border: 2px solid black;
+background-color: aqua;
+height: 200px;
+width: 200px;
 }
+.in{
 
-.nav.hover{
-    color: brown;
-}
-.nav{
-  background-color: rgb(37, 185, 185);
-}
-#links{
-  padding-left: 15px;
-  padding-top: 30px;
-}
-#para{
-   color: rgb(200, 72, 207);
-}
-.para{
-    background-color: rgb(126, 126, 238);
+  border: 2px solid black;
+  background-color: aqua;
+  height: 100px;
+width: 100px;
+display: flex;
+flex-direction: row;justify-content: space-evenly;
 }

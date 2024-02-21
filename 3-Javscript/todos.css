@@ -1,0 +1,23 @@
+.container{
+  
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  margin: 2px;
+  flex-wrap: wrap;
+
+  
+
+ 
+}
+.block1{
+  
+  width: 200px;
+  border: 1px solid black;
+  margin: 2px;
+padding-left: 10px;
+  
+  
+}

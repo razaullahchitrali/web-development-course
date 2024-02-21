@@ -1,0 +1,16 @@
+.container{
+   height: 200px;
+   width: 200px;
+   border: 2px solid black;
+   display: flex;
+  flex-direction: column;
+   
+   align-items: self-start;
+}
+.block1{
+   background-color: aqua;
+   height: 200px;
+   width: 200px;
+   border: 1px solid black;
+   align-items: center;
+}
