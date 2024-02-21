@@ -1,32 +1,39 @@
-import { BASE_URL } from "./utils/contants.js";
+// import { BASE_URL } from "./utils/contants.js";
 
-let todoContainer = document.getElementById("todo-container");
+// let todoContainer = document.getElementById("todo-container");
 
-let todoElement = () => {
+// let todoElement = () => {
     
-    fetch(BASE_URL)
-        .then((response) => response.json())
-        .then((result) => {
-            console.log("🚀 ~ .then ~ result:", result)
+//     fetch(BASE_URL)
+//         .then((response) => response.json())
+//         .then((result) => {
+//             console.log("🚀 ~ .then ~ result:", result)
 
-            let todosData = "";
-            result.forEach((item) => {
-                todosData += `
-                        <div class="block1">
-                            <h2>Todo ${item.id}</h2>
-                            <p> Title ${item.title}</p>
-                            <p>Complete ${item.completed}</p>
-                    </div>`
-                    });
+//             let todosData = "";
+//             result.forEach((item) => {
+//                 todosData += `
+//                         <div class="block1">
+//                             <h2>Todo ${item.id}</h2>
+//                             <p> Title ${item.title}</p>
+//                             <p>Complete ${item.completed}</p>
+//                     </div>`
+//                     });
 
-              todoContainer.innerHTML=todosData;            
+//               todoContainer.innerHTML=todosData;            
  
-        })
-        .catch((error)=>{
-            console.log(error);
-        })
-        .finally(()=>{
-            console.log("mission has passed");
-        })
+//         })
+//         .catch((error)=>{
+//             console.log(error);
+//         })
+//         .finally(()=>{
+//             console.log("mission has passed");
+//         })
+// };
+// todoElement();
+
+function fullName(fname,lname){
+    var a =(fname + "" + lname);
+    return a;
 };
-todoElement();
+var b = fullName('fname','lname');
+document.write(b);

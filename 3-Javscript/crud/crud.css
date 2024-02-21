@@ -1,0 +1,114 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.page{
+    height: 500px;
+    width: 350px;
+    background-color: blue;
+    box-shadow: 0px 0px 5px #000;
+  border-radius: 10px;
+    margin-top: 5px;
+ 
+}
+.upper-page{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(211, 122, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+
+}
+/* start middle page css */
+
+.middle-page{
+    width: 100%;
+    height: 70%;
+   background-color: rgb(216, 202, 216);
+   overflow-y: scroll;
+  
+
+}
+.middle-page ul{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+
+}
+.middle-page ul li{
+     list-style: none;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid rgb(237, 100, 221); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(233, 154, 233);
+
+}
+.middle-page ul li span{
+    font-size: 30px;
+
+}
+.middle-page ul .checked .text{
+    color: lightgray;
+}
+.middle-page::-webkit-scrollbar{
+    width: 5px;
+}
+.middle-page ul .checked{
+    color: lightgray;
+    text-decoration: line-through;
+}
+/* start bottom page css */
+
+.bottom-page{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(228, 151, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius: 10px;
+    padding: 3px;
+}
+.bottom-page input{
+    border: none;
+    width: 85%;
+    height: 100%;
+    background-color: rgb(228, 151, 222);
+    display: flex;;
+    outline: none;
+    font-size: 30px;
+    color:#fff;
+    padding: 10px;
+    
+
+}
+.bottom-page input::placeholder{
+    color: #fff;
+}
+
+.bottom-page i{
+    font-size: 40px;
+    color: #fff;
+    
+}
